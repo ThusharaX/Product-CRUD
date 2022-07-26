@@ -42,3 +42,11 @@ $ php artisan serve
 
 
 * ### Open your browser and type localhost:8000 OR 127.0.0.1:8000
+
+## Screenshots :
+
+![image](https://user-images.githubusercontent.com/47711719/181063620-28453d4d-e381-4439-b212-931928b035db.png)
+
+![image](https://user-images.githubusercontent.com/47711719/181063667-12f3b19c-4519-41c5-83e0-60f65bd5ee1a.png)
+
+![image](https://user-images.githubusercontent.com/47711719/181063702-b9bf62fa-f417-4341-9a31-0045abc01272.png)
