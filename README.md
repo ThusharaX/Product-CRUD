@@ -1,4 +1,4 @@
-# How to use this project
+# How to Run this project
 
 ## Step 1:
 
