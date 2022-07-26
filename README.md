@@ -1,22 +1,28 @@
 # How to use this project
 
+## Step 1:
+
 ```
 $ git clone https://github.com/ThusharaX/Laravel-Product-CRUD.git
 
 $ cd Laravel-Product-CRUD
-
-$ composer install
 ```
+
+## Step 2:
 
 * ### Copy .env.example file to .env on the root folder. You can type copy .env.example .env if using command prompt Windows
 
 * ### Open XAMPP and start Apache server and MySQL server
 
-* ### Create a database called "product_db"
+* ### Open phpMyAdmin and create a database called "product_db"
 
 *  ### Open your .env file and change the database name (DB_DATABASE) to "product_db"
 
+## Step 3:
+
 ```
+$ composer install
+
 $ php artisan key:generate
 
 $ php artisan migrate
