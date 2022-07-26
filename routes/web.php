@@ -35,6 +35,8 @@ Route::prefix('/product')->group(function(){
     Route::get('/set-active/{product_id}', [ProductController::class, 'setActive'])->name('product.setActive');
     // Set inactive
     Route::get('/set-inactive/{product_id}', [ProductController::class, 'setInactive'])->name('product.setInactive');
+    // View a product
+    Route::get('/view/{product_id}', [ProductController::class, 'view'])->name('product.view');
 });
 
 Route::middleware([
