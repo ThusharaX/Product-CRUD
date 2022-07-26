@@ -24,8 +24,13 @@ $ php artisan db:seed
 $ npm install
 
 $ npm run dev
+```
 
+* ### Open another terminal and type "php artisan serve"
+
+```
 $ php artisan serve
 ```
+
 
 * ### Open your browser and type localhost:8000 OR 127.0.0.1:8000
