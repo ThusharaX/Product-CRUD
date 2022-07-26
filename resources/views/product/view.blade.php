@@ -17,7 +17,7 @@
                             <div class="flex-1 min-w-0">
                                 {{-- Image --}}
                                 <img src="{{ asset('images/' . $product->image) }}" alt="{{ $product->name }}"
-                                    class="object-cover h-48 w-full shadow-lg mb-5">
+                                    class="object-cover h-48 w-full shadow-lg mb-5 rounded-lg">
 
                                 <h2 class="text-lg leading-6 font-medium text-gray-900">
                                     Product name : {{ $product->name }}
@@ -25,6 +25,18 @@
                                 <p class="mt-1 text-sm leading-5 text-gray-500">
                                     Price : LKR {{ $product->price }}
                                 </p>
+
+                                @if ($product->status == 'inactive')
+                                    <p class="mt-1 text-sm leading-5 text-gray-500">
+                                        Status : <span class="text-red-500">{{ $product->status }}</span>
+                                    </p>
+                                @else
+                                    <p class="mt-1 text-sm leading-5 text-gray-500">
+                                        Status : <span class="text-green-500">{{ $product->status }}</span>
+                                    </p>
+                                @endif
+
+                                {{-- Edit Button --}}
                                 <span class="inline-flex rounded-md shadow-sm mt-5">
                                     <a href="{{ route('product.edit', $product->id) }}"
                                         class="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700 active:bg-indigo-700 transition ease-in-out duration-150">
@@ -32,7 +44,7 @@
                                     </a>
                                 </span>
 
-                                {{-- Delete --}}
+                                {{-- Delete Button --}}
                                 <span class="inline-flex rounded-md shadow-sm mt-5">
                                     <form action="{{ route('product.delete', $product->id) }}" method="POST">
                                         @csrf

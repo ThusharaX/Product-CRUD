@@ -49,7 +49,7 @@
                                     {{-- Show image --}}
                                     <td class="p-2 md:border md:border-grey-500 text-center block md:table-cell">
                                         <img src="{{ asset('images/' . $product->image) }}" alt="{{ $product->name }}"
-                                            class="object-cover h-24 w-48 shadow-xl">
+                                            class="object-cover h-24 w-48 shadow-xl rounded-md">
                                     </td>
 
 
