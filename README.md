@@ -12,7 +12,7 @@ $ cd Product-CRUD/Laravel-Product-CRUD
 
 ## Step 2:
 
-* ### Copy .env.example file to .env on the "Laravel-Product-CRUD" folder. You can type copy .env.example .env if using command prompt Windows
+* ### Copy .env.example file to .env on the "Laravel-Product-CRUD" folder. You can type ```copy .env.example .env``` if using command prompt Windows
 
 * ### Open XAMPP and start Apache server and MySQL server
 
