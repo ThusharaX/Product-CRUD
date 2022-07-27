@@ -1,11 +1,13 @@
-# How to Run this project
+<h1>How to Run this project</h1>
+
+- ## **Steps to run Laravel Application**
 
 ## Step 1:
 
 ```
-$ git clone https://github.com/ThusharaX/Laravel-Product-CRUD.git
+$ git clone https://github.com/ThusharaX/Product-CRUD.git
 
-$ cd Laravel-Product-CRUD
+$ cd Product-CRUD/Laravel-Product-CRUD
 ```
 
 ## Step 2:
@@ -41,12 +43,35 @@ $ php artisan serve
 ```
 
 
-* ### Open your browser and type localhost:8000 OR 127.0.0.1:8000
+* ### Open your browser and type *http://localhost:8000/* OR *http://127.0.0.1:8000/*
 
-## Screenshots :
+<hr/>
+
+## **Steps to run NUXT Application**
+
+## Step 1:
+
+* ### Run Laravel-Product-CRUD Application
+
+## Step 2:
+
+```
+$ cd Product-CRUD/Nuxt-Product-View
+
+$ yarn install
+
+$ yarn dev
+```
+
+* ### Open your browser and type *http://localhost:3000/* OR *http://127.0.0.1:3000/*
+
+
+## Laravel-Product-CRUD Screenshots :
 
 ![image](https://user-images.githubusercontent.com/47711719/181063620-28453d4d-e381-4439-b212-931928b035db.png)
 
 ![image](https://user-images.githubusercontent.com/47711719/181063667-12f3b19c-4519-41c5-83e0-60f65bd5ee1a.png)
 
 ![image](https://user-images.githubusercontent.com/47711719/181063702-b9bf62fa-f417-4341-9a31-0045abc01272.png)
+
+## Nuxt-Product-View Screenshots :
