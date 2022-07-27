@@ -1,6 +1,6 @@
 <h1>How to Run this project</h1>
 
-- ## **Steps to run Laravel Application**
+## **Steps to run Laravel Application**
 
 ## Step 1:
 
