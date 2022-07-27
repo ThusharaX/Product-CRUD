@@ -75,3 +75,5 @@ $ yarn dev
 ![image](https://user-images.githubusercontent.com/47711719/181063702-b9bf62fa-f417-4341-9a31-0045abc01272.png)
 
 ## Nuxt-Product-View Screenshots :
+
+![image](https://user-images.githubusercontent.com/47711719/181209442-4bdf37e1-4f68-42aa-9bad-0c89f40da839.png)
