@@ -6,7 +6,9 @@
 
 ```
 $ git clone https://github.com/ThusharaX/Product-CRUD.git
+```
 
+```
 $ cd Product-CRUD/Laravel-Product-CRUD
 ```
 
@@ -24,13 +26,21 @@ $ cd Product-CRUD/Laravel-Product-CRUD
 
 ```
 $ composer install
+```
 
+```
 $ php artisan key:generate
+```
 
+```
 $ php artisan migrate
+```
 
+```
 $ npm install
+```
 
+```
 $ npm run dev
 ```
 
@@ -55,9 +65,13 @@ $ php artisan serve
 
 ```
 $ cd Product-CRUD/Nuxt-Product-View
+```
 
+```
 $ yarn install
+```
 
+```
 $ yarn dev
 ```
 
